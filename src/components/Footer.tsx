@@ -9,20 +9,32 @@ const Footer = () => {
     <footer className="text-center p-4 mt-32 px-6">
       <div className="md:flex justify-between p-6 items-center">
         <h2 className="text-xl mb-4 md:mb-0">&lt;Jesus Borjas /&gt;</h2>
-        <ul className="flex justify-center space-x-14">
-          <li>Home</li>
-          <li>About</li>
-          <li>Expertise</li>
-          <li>Work</li>
+        <ul className="flex justify-center space-x-14 text-lg">
+          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer">About</li>
+          <li className="cursor-pointer">Expertise</li>
+          <li className="cursor-pointer">Work</li>
         </ul>
         <div className="flex justify-center mt-8 md:mt-0 space-x-6">
-          <a href="http://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/jesus-borjas-6589b920a/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsLinkedin size={30} />
           </a>
-          <a href="http://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Jesusborjas006"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsGithub size={30} />
           </a>
-          <a href="http://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://docs.google.com/document/d/1RLLFRV9K7DFOYccXzt544n3SsytSGb-LU4r6qsQvWR0/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsFillFileEarmarkTextFill size={30} />
           </a>
         </div>

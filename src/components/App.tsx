@@ -7,7 +7,7 @@ import Works from "./Works";
 
 function App() {
   return (
-    <main className="">
+    <main className="" id="home">
       <Navbar />
       <Hero />
       <Skills />

@@ -25,12 +25,22 @@ const Navbar = () => {
   return (
     <nav className="flex border justify-between p-4 px-6">
       <h1 className="text-xl ">&lt;Jesus Borjas /&gt;</h1>
-      <ul className="hidden sm:flex sm:gap-5 md:gap-8 lg:gap-14">
-        <li>Home</li>
-        <li>About</li>
-        <li>Expertise</li>
-        <li>Work</li>
-        <li>Contact</li>
+      <ul className="hidden sm:flex sm:gap-5 md:gap-8 lg:gap-14 text-lg">
+        <li className="cursor-pointer">
+          <a href="#home">Home</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#about">About</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#expertise">Expertise</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#work">Work</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
       {menuIcon && (
         <AiOutlineMenu
@@ -55,12 +65,22 @@ const Navbar = () => {
           onClick={() => setMobileNav(!mobileNav)}
         />
         <h2 className="text-2xl font-bold mx-6 mt-10">&lt;Jesus /&gt;</h2>
-        <ul className="mx-6 mt-10 flex flex-col justify-evenly gap-5 text-gray-800">
-          <li className="text-xl">Home</li>
-          <li className="text-xl">About</li>
-          <li className="text-xl">Expertise</li>
-          <li className="text-xl">Work</li>
-          <li className="text-xl">Contact</li>
+        <ul className="mx-6 mt-10 flex flex-col justify-evenly gap-5 text-gray-800 text-xl">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#expertise">Expertise</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>

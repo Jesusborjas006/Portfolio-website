@@ -12,10 +12,10 @@ const Hero = () => {
         src="../images/undraw-2.svg"
         alt="programming svg"
       />
-      <h2 className="text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
+      <h2 className="text-3xl font-semibold md:text-4xl lg:text-5xl ">
         Hi! I'm Jesus Borjas.
       </h2>
-      <h2 className="text-3xl font-semibold mb-4 md:text-4xl lg:text-5xl xl:text-6xl">
+      <h2 className="text-3xl font-semibold mb-4 md:text-4xl lg:text-5xl ">
         A Front-End Developer
       </h2>
       <p className="max-w-[600px] mx-auto md:text-lg ">
@@ -25,13 +25,25 @@ const Hero = () => {
         better developer.
       </p>
       <div className="flex justify-center mt-4 space-x-6">
-        <a href="http://www.google.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/jesus-borjas-6589b920a/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin size={30} />
         </a>
-        <a href="http://www.google.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/Jesusborjas006"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsGithub size={30} />
         </a>
-        <a href="http://www.google.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://docs.google.com/document/d/1RLLFRV9K7DFOYccXzt544n3SsytSGb-LU4r6qsQvWR0/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsFillFileEarmarkTextFill size={30} />
         </a>
       </div>
