@@ -1,3 +1,4 @@
+import Contact from "./Contact";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Skills />
       <Works />
+      <Contact />
       <Footer />
     </main>
   );

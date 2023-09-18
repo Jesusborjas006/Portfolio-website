@@ -7,6 +7,11 @@ import {
 const Hero = () => {
   return (
     <section className="text-center px-6 mx-auto mt-24">
+      <img
+        className="mx-auto w-[320px] md:w-[380px] mb-4"
+        src="../images/undraw-2.svg"
+        alt="programming svg"
+      />
       <h2 className="text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
         Hi! I'm Jesus Borjas.
       </h2>
