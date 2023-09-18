@@ -67,19 +67,29 @@ const Navbar = () => {
         <h2 className="text-2xl font-bold mx-6 mt-10">&lt;Jesus /&gt;</h2>
         <ul className="mx-6 mt-10 flex flex-col justify-evenly gap-5 text-gray-800 text-xl">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" onClick={() => setMobileNav(!mobileNav)}>
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={() => setMobileNav(!mobileNav)}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#expertise">Expertise</a>
+            <a href="#expertise" onClick={() => setMobileNav(!mobileNav)}>
+              Expertise
+            </a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a href="#work" onClick={() => setMobileNav(!mobileNav)}>
+              Work
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => setMobileNav(!mobileNav)}>
+              Contact
+            </a>
           </li>
         </ul>
       </div>
