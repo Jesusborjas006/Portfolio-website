@@ -1,19 +1,17 @@
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Hero from "./Hero";
+import { Route, Routes } from "react-router-dom";
+import Home from "../pages/Home";
 import Navbar from "./Navbar";
-import Skills from "./Skills";
-import Works from "./Works";
+import Details from "../pages/Details";
 
 function App() {
   return (
-    <main className="" id="home">
+    <main id="home">
       <Navbar />
-      <Hero />
-      <Skills />
-      <Works />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/details/:id" element={<Details />} />
+      </Routes>
+
     </main>
   );
 }

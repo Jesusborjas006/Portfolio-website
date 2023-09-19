@@ -4,7 +4,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 const Contact = () => {
   return (
     <section className="my-44" id="contact">
-      <div className="grid grid-cols-2  w-[90vw] mx-auto gap-10 ">
+      <div className="grid md:grid-cols-2  w-[90vw] mx-auto gap-10 ">
         <div className="space-y-3">
           <h3 className="text-2xl md:text-3xl font-semibold border-b-4 border-b-black inline-block mb-4">
             Get in Touch
