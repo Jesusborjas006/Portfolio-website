@@ -10,10 +10,18 @@ const Footer = () => {
       <div className="md:flex justify-between p-6 items-center">
         <h2 className="text-xl mb-4 md:mb-0">&lt;Jesus Borjas /&gt;</h2>
         <ul className="flex justify-center space-x-14 text-lg">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">About</li>
-          <li className="cursor-pointer">Expertise</li>
-          <li className="cursor-pointer">Work</li>
+          <li className="cursor-pointer">
+            <a href="#home">Home</a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="#about">About</a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="#expertise">Expertise</a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="#work">Work</a>
+          </li>
         </ul>
         <div className="flex justify-center mt-8 md:mt-0 space-x-6">
           <a

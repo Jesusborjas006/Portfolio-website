@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuIcon, setMenuIcon] = useState(false);
@@ -24,7 +25,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex border justify-between p-4 px-6">
-      <h1 className="text-xl ">&lt;Jesus Borjas /&gt;</h1>
+      <Link to="/" className="text-xl ">
+        &lt;Jesus Borjas /&gt;
+      </Link>
       <ul className="hidden sm:flex sm:gap-5 md:gap-8 lg:gap-14 text-lg">
         <li className="cursor-pointer">
           <a href="#home">Home</a>
