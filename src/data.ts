@@ -61,30 +61,48 @@ export const projectsData = [
     id: 1,
     name: "MovieMania",
     img: "/movie-mania.png",
+    description:
+      "MovieMania is a react application that allows users to view a variety of movies or shows, and be able to see specific details such as Ratings, Description, Budget, Revenue, and Production Companies.",
+    stack: ["React", "Typescript", "Tailwind CSS"],
   },
   {
     id: 2,
     name: "Jadoo Website",
     img: "/travel-website.png",
+    description:
+      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind and Web design skills with this project. This landing page is resposive across all devices.",
+    stack: ["React", "Javascript", "Tailwind CSS"],
   },
   {
     id: 3,
     name: "Contruction Website",
     img: "/construction-website.png",
+    description:
+      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind CSS and web design with this project. This landing page is resposive across all devices.",
+    stack: ["React", "Javascript", "Tailwind CSS"],
   },
   {
     id: 4,
     name: "Tesla Clone",
     img: "/tesla-website.png",
+    description:
+      "This project involves creating Tesla's home page. This was built using React with CSS to style the components and to make it responsive across mobile devices. This project was to showcase my skills in being able to take in a design and implement it into code.",
+    stack: ["React", "Javascript", "CSS"],
   },
   {
     id: 5,
     name: "GoShop",
     img: "/e-commerce-app.png",
+    description:
+      "GoShop is an online e-commerce site built during Mod 4 of Turing School of Software & Design. This project was intended for me to keep my React skills sharp and implement React Router to dynamically render components based on the URL path. User's can add items to their cart and checkout by confirming their order. The data can be filtered by category as shown in the sidebar and display the amount of items available at the top of the page. Application is fully responsive for multiple devices and has an 100% lighthouse score for accessibility.",
+    stack: ["React", "Javascript", "CSS"],
   },
   {
     id: 6,
     name: "News Reader",
     img: "/news-reader.png",
+    description:
+      "This application displays multiple articles coming from the News API. The user can click on an article to see more details by navigating the user to a new page using Router. This application includes a search feature and is responsive across all devices.",
+    stack: ["React", "Javascript", "CSS", "Cypress"],
   },
 ];

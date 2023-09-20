@@ -5,13 +5,17 @@ import Works from "../components/Works";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-const Home = () => {
+type HomeProps = {
+  setSelectedProject: React.Dispatch<React.SetStateAction<number>>;
+};
+
+const Home = ({ setSelectedProject }: HomeProps) => {
   return (
     <>
       <Navbar />
       <Hero />
       <Skills />
-      <Works />
+      <Works setSelectedProject={setSelectedProject} />
       <Contact />
       <Footer />
     </>

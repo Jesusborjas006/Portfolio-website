@@ -1,9 +1,19 @@
 import { projectsData } from "../data";
 import Work from "./Work";
 
-const Works = () => {
+type WorksProps = {
+  setSelectedProject: React.Dispatch<React.SetStateAction<number>>;
+};
+
+const Works = ({ setSelectedProject }: WorksProps) => {
   const workElements = projectsData.map((project) => (
-    <Work key={project.id} name={project.name} img={project.img} />
+    <Work
+      key={project.id}
+      id={project.id}
+      name={project.name}
+      img={project.img}
+      setSelectedProject={setSelectedProject}
+    />
   ));
   return (
     <section className="px-6 mx-auto mt-32" id="work">

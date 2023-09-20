@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
+import { projectsData } from "../data";
 
-const Details = () => {
+const Details = ( ) => {
+  const endpointPath = window.location.pathname;
+  const endpointNum = endpointPath.substring(endpointPath.length - 1);
+
+  const selectedProject = projectsData.find(
+    (project) => project.id === Number(endpointNum)
+  );
+  const techElements = selectedProject?.stack.map((tech) => tech);
+
   return (
     <>
       <nav className="border p-4 px-6">
@@ -13,18 +22,16 @@ const Details = () => {
           Go Back Home
         </Link>
         <div className="flex flex-col-reverse lg:flex-row lg:items-center items-start gap-x-10 mt-10">
-          <div className="">
-            <h2 className="text-2xl md:text-3xl mb-2">Tesla Clone</h2>
+          <div>
+            <h2 className="text-2xl md:text-3xl mb-2">
+              {selectedProject?.name}
+            </h2>
             <p className="lg:max-w-[90%] leading-6">
-              This project involves creating Tesla's home page. This was built
-              using React with CSS to style the components and to make it
-              responsive across mobile devices. This project was to showcase my
-              skills in being able to take in a design and implement it into
-              code.
+              {selectedProject?.description}
             </p>
             <p className="my-4">
               <span className="font-semibold">Tech Stack Used:</span>{" "}
-              TypeScript, React, Tailwind CSS, Cypress
+              {techElements?.join(", ")}
             </p>
             <div className="space-x-4 my-4">
               <button className="border p-2 rounded-md">Live Site</button>
@@ -33,7 +40,7 @@ const Details = () => {
           </div>
           <img
             className="rounded-md my-4 lg:w-[50%]"
-            src="../images/tesla-website.png"
+            src={`../images/${selectedProject?.img}`}
             alt="project img"
           />
         </div>
