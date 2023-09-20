@@ -24,7 +24,7 @@ const Navbar = () => {
   }, [windowWidth]);
 
   return (
-    <nav className="flex border justify-between p-4 px-6">
+    <nav className="flex border justify-between p-4 px-6 sticky top-0 z-[2] bg-white">
       <Link to="/" className="text-xl ">
         &lt;Jesus Borjas /&gt;
       </Link>
