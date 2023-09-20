@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { projectsData } from "../data";
 
-const Details = ( ) => {
+const Details = () => {
   const endpointPath = window.location.pathname;
   const endpointNum = endpointPath.substring(endpointPath.length - 1);
 
@@ -34,8 +34,25 @@ const Details = ( ) => {
               {techElements?.join(", ")}
             </p>
             <div className="space-x-4 my-4">
-              <button className="border p-2 rounded-md">Live Site</button>
-              <button className="border p-2 rounded-md">See Code</button>
+              {selectedProject?.liveSite && (
+                <a
+                  href={selectedProject?.liveSite}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="border p-2 rounded-md"
+                >
+                  Live Site
+                </a>
+              )}
+
+              <a
+                href={selectedProject?.githubLink}
+                target="_blank"
+                rel="noreferrer"
+                className="border p-2 rounded-md"
+              >
+                See Code
+              </a>
             </div>
           </div>
           <img

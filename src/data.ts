@@ -64,6 +64,8 @@ export const projectsData = [
     description:
       "MovieMania is a react application that allows users to view a variety of movies or shows, and be able to see specific details such as Ratings, Description, Budget, Revenue, and Production Companies.",
     stack: ["React", "Typescript", "Tailwind CSS"],
+    liveSite: "https://movie-mania-nu.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/MovieMania",
   },
   {
     id: 2,
@@ -72,6 +74,8 @@ export const projectsData = [
     description:
       "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind and Web design skills with this project. This landing page is resposive across all devices.",
     stack: ["React", "Javascript", "Tailwind CSS"],
+    liveSite: "https://travel-agency-landing-page-teal.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/travel-agency-landing-page",
   },
   {
     id: 3,
@@ -80,6 +84,8 @@ export const projectsData = [
     description:
       "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind CSS and web design with this project. This landing page is resposive across all devices.",
     stack: ["React", "Javascript", "Tailwind CSS"],
+    liveSite: "https://construction-landing-page-sigma.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/Construction-landing-page",
   },
   {
     id: 4,
@@ -88,6 +94,8 @@ export const projectsData = [
     description:
       "This project involves creating Tesla's home page. This was built using React with CSS to style the components and to make it responsive across mobile devices. This project was to showcase my skills in being able to take in a design and implement it into code.",
     stack: ["React", "Javascript", "CSS"],
+    liveSite: "https://tesla-clone-jesusborjas006.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/tesla-clone",
   },
   {
     id: 5,
@@ -96,6 +104,8 @@ export const projectsData = [
     description:
       "GoShop is an online e-commerce site built during Mod 4 of Turing School of Software & Design. This project was intended for me to keep my React skills sharp and implement React Router to dynamically render components based on the URL path. User's can add items to their cart and checkout by confirming their order. The data can be filtered by category as shown in the sidebar and display the amount of items available at the top of the page. Application is fully responsive for multiple devices and has an 100% lighthouse score for accessibility.",
     stack: ["React", "Javascript", "CSS"],
+    liveSite: "https://go-shop-nqnboy9fo-jesusborjas006.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/GoShop",
   },
   {
     id: 6,
@@ -104,5 +114,7 @@ export const projectsData = [
     description:
       "This application displays multiple articles coming from the News API. The user can click on an article to see more details by navigating the user to a new page using Router. This application includes a search feature and is responsive across all devices.",
     stack: ["React", "Javascript", "CSS", "Cypress"],
+    liveSite: "",
+    githubLink: "https://github.com/Jesusborjas006/News-Reader",
   },
 ];
