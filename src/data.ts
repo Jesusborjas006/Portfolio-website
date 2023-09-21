@@ -62,7 +62,7 @@ export const projectsData = [
     name: "MovieMania",
     img: "/movie-mania.png",
     description:
-      "MovieMania is a react application that allows users to view a variety of movies or shows, and be able to see specific details such as Ratings, Description, Budget, Revenue, and Production Companies.",
+      "MovieMania is a react application that allows users to view a variety of movies or shows, and be able to see specific details such as Ratings, Description, Budget, Revenue, and Production Companies. Pagination feature was implemented at the bottom of the application to render a certain amount of data at a time for performance.",
     stack: ["React", "Typescript", "Tailwind CSS"],
     liveSite: "https://movie-mania-nu.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/MovieMania",
@@ -72,7 +72,7 @@ export const projectsData = [
     name: "Jadoo Website",
     img: "/travel-website.png",
     description:
-      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind and Web design skills with this project. This landing page is resposive across all devices.",
+      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind and Web design skills with this project. This landing page is responsive across all devices.",
     stack: ["React", "Javascript", "Tailwind CSS"],
     liveSite: "https://travel-agency-landing-page-teal.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/travel-agency-landing-page",
@@ -82,7 +82,7 @@ export const projectsData = [
     name: "Contruction Website",
     img: "/construction-website.png",
     description:
-      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind CSS and web design with this project. This landing page is resposive across all devices.",
+      "I took a design and implemented it into code with the help of Tailwind CSS. I continue to advance my skills in Tailwind CSS and web design with this project. This landing page is responsive across all devices.",
     stack: ["React", "Javascript", "Tailwind CSS"],
     liveSite: "https://construction-landing-page-sigma.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/Construction-landing-page",
@@ -116,5 +116,35 @@ export const projectsData = [
     stack: ["React", "Javascript", "CSS", "Cypress"],
     liveSite: "",
     githubLink: "https://github.com/Jesusborjas006/News-Reader",
+  },
+  {
+    id: 7,
+    name: "Weather App",
+    img: "/weather-app.png",
+    description:
+      "This application displays the weather for any city or state the user submits to the search bar. It's fully responsive application with a 100% accessibility score in lighthouse",
+    stack: ["React", "Javascript", "CSS",],
+    liveSite: "https://weather-app-three-pi-86.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/weather-api",
+  },
+  {
+    id: 8,
+    name: "Higher or Lower",
+    img: "/Higher-or-Lower.png",
+    description:
+      "A game just like the original but focusing on the celebrities instagram followers. You must choose whether or not the the celebrity has more followers than the current being displayed. It's a fully responsive game which the user can also play on their mobile device and uses local storage to keep track of their highscore.",
+    stack: ["Javascript", "CSS", "HTML"],
+    liveSite: "https://higher-or-lower-game-ceulv6a2l-jesusborjas006.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/higher-or-lower-game",
+  },
+  {
+    id: 9,
+    name: "Rock Paper Scissors",
+    img: "/rock-paper-scissors.png",
+    description:
+      "I built a website with the functionality for a user to play against a computer in two different games.This allows the user to keep track of the overall score, and who won each game.",
+    stack: ["Javascript", "CSS", "HTML"],
+    liveSite: "https://rock-papers-scissors.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/rock-papers-scissors",
   },
 ];

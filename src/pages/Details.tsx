@@ -33,13 +33,13 @@ const Details = () => {
               <span className="font-semibold">Tech Stack Used:</span>{" "}
               {techElements?.join(", ")}
             </p>
-            <div className="space-x-4 my-4">
+            <div className="space-x-4 my-8">
               {selectedProject?.liveSite && (
                 <a
                   href={selectedProject?.liveSite}
                   target="_blank"
                   rel="noreferrer"
-                  className="border p-2 rounded-md"
+                  className="border py-2 px-4 rounded-md font-semibold"
                 >
                   Live Site
                 </a>
@@ -49,7 +49,7 @@ const Details = () => {
                 href={selectedProject?.githubLink}
                 target="_blank"
                 rel="noreferrer"
-                className="border p-2 rounded-md"
+                className="border py-2 px-4 rounded-md font-semibold"
               >
                 See Code
               </a>
