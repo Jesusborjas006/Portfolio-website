@@ -17,7 +17,7 @@ const Works = ({ setSelectedProject }: WorksProps) => {
   ));
   return (
     <section className="px-6 mx-auto mt-32 pt-20" id="work">
-      <h4 className="text-center mb-2">Work Projects</h4>
+      <h4 className="text-center mb-2 ">Work Projects</h4>
       <h3 className="text-center text-3xl md:text-4xl font-semibold mb-10">
         My Projects
       </h3>

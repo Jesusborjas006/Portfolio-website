@@ -12,10 +12,10 @@ const Hero = () => {
         src="../images/undraw-2.svg"
         alt="programming svg"
       />
-      <h2 className="text-3xl font-semibold md:text-4xl lg:text-5xl ">
+      <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl text-[#091E42]">
         Hi! I'm Jesus Borjas.
       </h2>
-      <h2 className="text-3xl font-semibold mb-4 md:text-4xl lg:text-5xl ">
+      <h2 className="text-3xl font-bold mb-4 md:text-4xl lg:text-5xl text-[#091E42]">
         A Front-End Developer
       </h2>
       <p className="max-w-[600px] mx-auto md:text-lg ">

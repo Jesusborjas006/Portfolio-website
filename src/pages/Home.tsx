@@ -14,8 +14,10 @@ const Home = ({ setSelectedProject }: HomeProps) => {
     <>
       <Navbar />
       <Hero />
-      <Skills />
-      <Works setSelectedProject={setSelectedProject} />
+      <div className="bg-[#44546F] pb-20 text-[#f1f1f1]">
+        <Skills />
+        <Works setSelectedProject={setSelectedProject} />
+      </div>
       <Contact />
       <Footer />
     </>

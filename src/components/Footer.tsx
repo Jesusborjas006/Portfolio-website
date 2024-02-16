@@ -6,7 +6,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="text-center p-4 mt-32 px-6">
+    <footer className="text-center p-4 mt-32 px-6 bg-[#44546F] text-white">
       <div className="md:flex justify-between p-6 items-center">
         <h2 className="text-xl mb-4 md:mb-0">&lt;Jesus Borjas /&gt;</h2>
         <ul className="flex justify-center space-x-14 text-lg">

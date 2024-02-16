@@ -24,16 +24,13 @@ const Navbar = () => {
   }, [windowWidth]);
 
   return (
-    <nav className="flex border justify-between p-4 px-6 sticky top-0 z-[2] bg-white">
+    <nav className="flex justify-between py-6 px-6 sticky top-0 z-[2] bg-[#44546F] text-white">
       <Link to="/" className="text-xl ">
         &lt;Jesus Borjas /&gt;
       </Link>
-      <ul className="hidden sm:flex sm:gap-5 md:gap-8 lg:gap-14 text-lg">
+      <ul className="hidden sm:flex sm:gap-5 md:gap-8 lg:gap-10 md:text-lg">
         <li className="cursor-pointer">
           <a href="#home">Home</a>
-        </li>
-        <li className="cursor-pointer">
-          <a href="#about">About</a>
         </li>
         <li className="cursor-pointer">
           <a href="#expertise">Expertise</a>
@@ -43,6 +40,15 @@ const Navbar = () => {
         </li>
         <li className="cursor-pointer">
           <a href="#contact">Contact</a>
+        </li>
+        <li className="cursor-pointer bg-white text-[#2C3E5D] px-4 ">
+          <a
+            href="https://docs.google.com/document/d/1RLLFRV9K7DFOYccXzt544n3SsytSGb-LU4r6qsQvWR0/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </li>
       </ul>
       {menuIcon && (

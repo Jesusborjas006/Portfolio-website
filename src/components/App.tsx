@@ -7,7 +7,7 @@ function App() {
   const [, setSelectedProject] = useState(0);
 
   return (
-    <main id="home">
+    <main id="home" className="bg-[#F1F2F4]">
       <Routes>
         <Route
           path="/"

@@ -12,7 +12,7 @@ const Details = () => {
 
   return (
     <>
-      <nav className="border p-4 px-6">
+      <nav className="border p-4 px-6 bg-[#44546F] text-white">
         <Link to="/" className="text-xl ">
           &lt;Jesus Borjas /&gt;
         </Link>
