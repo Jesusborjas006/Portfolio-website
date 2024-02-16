@@ -47,7 +47,7 @@ export const skillsData = [
   {
     id: 10,
     name: "Chai",
-    img: "https://camo.githubusercontent.com/7ecbd4531436e4f20c1dba52a4fd4ac367cfcc20a2f62cfe7a10f32da306afc6/687474703a2f2f636861696a732e636f6d2f696d672f636861692d6c6f676f2e706e67",
+    img: "https://avatars.githubusercontent.com/u/1515293?s=280&v=4",
   },
   {
     id: 11,
@@ -123,7 +123,7 @@ export const projectsData = [
     img: "/weather-app.png",
     description:
       "This application displays the weather for any city or state the user submits to the search bar. It's fully responsive application with a 100% accessibility score in lighthouse",
-    stack: ["React", "Javascript", "CSS",],
+    stack: ["React", "Javascript", "CSS"],
     liveSite: "https://weather-app-three-pi-86.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/weather-api",
   },
@@ -134,7 +134,8 @@ export const projectsData = [
     description:
       "A game just like the original but focusing on the celebrities instagram followers. You must choose whether or not the the celebrity has more followers than the current being displayed. It's a fully responsive game which the user can also play on their mobile device and uses local storage to keep track of their highscore.",
     stack: ["Javascript", "CSS", "HTML"],
-    liveSite: "https://higher-or-lower-game-ceulv6a2l-jesusborjas006.vercel.app/",
+    liveSite:
+      "https://higher-or-lower-game-ceulv6a2l-jesusborjas006.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/higher-or-lower-game",
   },
   {

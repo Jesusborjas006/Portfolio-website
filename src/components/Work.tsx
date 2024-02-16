@@ -15,7 +15,7 @@ const Work = ({ id, name, img, setSelectedProject }: WorkProps) => {
       onClick={() => setSelectedProject(id)}
     >
       <img className="rounded-lg" src={`../images/${img}`} alt={name} />
-      <p className="text-xl lg:text-2xl font-semibold mt-2 ">{name}</p>
+      <p className="text-xl lg:text-2xl font-medium mt-2 ">{name}</p>
     </Link>
   );
 };

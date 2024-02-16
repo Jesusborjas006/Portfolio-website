@@ -17,8 +17,11 @@ const Details = () => {
           &lt;Jesus Borjas /&gt;
         </Link>
       </nav>
-      <section className="px-6 mx-auto my-10">
-        <Link to="/" className="border p-2 rounded-md">
+      <section className="px-6 mx-auto my-10 bg-[#F1F2F4]">
+        <Link
+          to="/"
+          className="border p-2 font-medium rounded-md text-black border-[#B3B9C4] hover:bg-[#091E42] hover:text-white hover:border-none"
+        >
           Go Back Home
         </Link>
         <div className="flex flex-col-reverse lg:flex-row lg:items-center items-start gap-x-10 mt-10">
@@ -29,8 +32,8 @@ const Details = () => {
             <p className="lg:max-w-[90%] leading-6">
               {selectedProject?.description}
             </p>
-            <p className="my-4">
-              <span className="font-semibold">Tech Stack Used:</span>{" "}
+            <p className="my-4 text-[#2C3E5D]">
+              <span className="font-semibold text-black">Tech Stack Used:</span>{" "}
               {techElements?.join(", ")}
             </p>
             <div className="space-x-4 my-8">
@@ -39,7 +42,7 @@ const Details = () => {
                   href={selectedProject?.liveSite}
                   target="_blank"
                   rel="noreferrer"
-                  className="border py-2 px-4 rounded-md font-semibold"
+                  className=" py-2 px-6 rounded-md font-medium bg-[#2C3E5D] text-white hover:bg-[#091E42] transition-colors"
                 >
                   Live Site
                 </a>
@@ -49,7 +52,7 @@ const Details = () => {
                 href={selectedProject?.githubLink}
                 target="_blank"
                 rel="noreferrer"
-                className="border py-2 px-4 rounded-md font-semibold"
+                className="border py-2 px-6 rounded-md font-medium text-[#0f0f0f] border-[#B3B9C4] hover:bg-[#091E42] hover:text-white hover:border-none"
               >
                 See Code
               </a>
