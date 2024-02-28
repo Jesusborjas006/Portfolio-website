@@ -47,7 +47,11 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="m-6 text-xl">Email: jesusbor006@gmail.com</p>
+      <a href="mailto:jesusbor006@gmail.com">
+        <span className=" inline-block m-6 text-xl ">
+          Email: jesusbor006@gmail.com
+        </span>
+      </a>
       <p>
         &copy; {new Date().getFullYear()}. All rights reserved by Jesus Borjas.
       </p>

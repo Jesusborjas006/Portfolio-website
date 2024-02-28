@@ -12,10 +12,13 @@ const Contact = () => {
           <p className="flex items-center gap-x-2">
             <MdLocationOn size={26} /> Illinois, United States
           </p>
-          <p className="flex gap-x-2">
+          <a
+            href="mailto:jesusbor006@gmail.com"
+            className="flex gap-x-2 underline"
+          >
             <MdEmail size={26} />
             jesusbor006@gmail.com
-          </p>
+          </a>
 
           <a
             href="https://www.linkedin.com/in/jesus-borjas-6589b920a/"
