@@ -20,6 +20,11 @@ export const skillsData = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
   },
   {
+    id: 12,
+    name: "Redux Toolkit",
+    img: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+  },
+  {
     id: 5,
     name: "Typescript",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
