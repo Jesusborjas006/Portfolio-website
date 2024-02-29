@@ -73,6 +73,17 @@ export const projectsData = [
     githubLink: "https://github.com/Jesusborjas006/MovieMania",
   },
   {
+    id: 5,
+    name: "Burger Shack",
+    img: "/burger-shack.png",
+    description: `Burger Shack is a React application designed to mimic a food ordering platform, where users can easily place orders. The app showcases a variety of menu items for users to choose from and incorporates multiple features for enhanced user experience. Users have the flexibility to add specific quantities of items to their orders, remove items as needed, and submit the order to reset the process.
+
+      The application consists of several pages, with React Router facilitating smooth navigation between them. These pages include a comprehensive menu item overview providing detailed information, a summary page displaying the user's order details, and a checkout page for finalizing the order.`,
+    stack: ["React", "React Router", "TypeScript", "Tailwind CSS"],
+    liveSite: "https://burger-shack.vercel.app/",
+    githubLink: "https://github.com/Jesusborjas006/Burger-Shack",
+  },
+  {
     id: 2,
     name: "Jadoo Website",
     img: "/travel-website.png",
@@ -101,16 +112,6 @@ export const projectsData = [
     stack: ["React", "Javascript", "CSS"],
     liveSite: "https://tesla-clone-jesusborjas006.vercel.app/",
     githubLink: "https://github.com/Jesusborjas006/tesla-clone",
-  },
-  {
-    id: 5,
-    name: "GoShop",
-    img: "/e-commerce-app.png",
-    description:
-      "GoShop is an online e-commerce site built during Mod 4 of Turing School of Software & Design. This project was intended for me to keep my React skills sharp and implement React Router to dynamically render components based on the URL path. User's can add items to their cart and checkout by confirming their order. The data can be filtered by category as shown in the sidebar and display the amount of items available at the top of the page. Application is fully responsive for multiple devices and has an 100% lighthouse score for accessibility.",
-    stack: ["React", "Javascript", "CSS"],
-    liveSite: "https://go-shop-nqnboy9fo-jesusborjas006.vercel.app/",
-    githubLink: "https://github.com/Jesusborjas006/GoShop",
   },
   {
     id: 6,
